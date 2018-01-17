@@ -1,0 +1,4 @@
+[submodule "scripts/subword-nmt"]
+	path = scripts/subword-nmt
+	url = https://github.com/rsennrich/subword-nmt.git
+	branch = master
