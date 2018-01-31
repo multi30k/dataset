@@ -41,7 +41,7 @@ mkdir -p $BPE &> /dev/null
 #####
 # BPE
 #####
-for TLANG in de fr; do
+for TLANG in de fr cs; do
   LPAIR="en-${TLANG}"
   mkdir -p "${BPE}/${LPAIR}" &> /dev/null
   BPEFILE="${BPE}/${LPAIR}/codes"
@@ -58,7 +58,7 @@ done
 wait
 
 # Apply for all pairs separately
-for LPAIR in "en-de" "en-fr"; do
+for LPAIR in "en-de" "en-fr" "en-cs"; do
   BPEFILE="${BPE}/${LPAIR}/codes"
 
   for TYPE in "train" "val" "test_2016_flickr" "test_2017_flickr" "test_2017_mscoco"; do

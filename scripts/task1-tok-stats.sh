@@ -6,7 +6,7 @@ pushd data/task1/tok
 for split in train val test_2016_flickr test_2017_flickr test_2017_mscoco; do
   echo "$split"
 
-  for lang in en de fr; do
+  for lang in en de fr cs; do
     WC=`cat ${split}.lc.norm.tok.${lang} | wc`
     N_SENTS=`echo $WC | cut -d' ' -f1`
     N_WORDS=`echo $WC | cut -d' ' -f2`

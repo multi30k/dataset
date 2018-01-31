@@ -22,7 +22,7 @@ SUFFIX="lc.norm.tok"
 # Preprocess files in parallel
 ##############################
 for TYPE in "train" "val" "test_2016_flickr" "test_2017_flickr" "test_2017_mscoco"; do
-  for LLANG in en de fr; do
+  for LLANG in en de fr cs; do
     INP="${RAW}/${TYPE}.${LLANG}.gz"
     OUT="${TOK}/${TYPE}.${SUFFIX}.${LLANG}"
     if [ -f $INP ] && [ ! -f $OUT ]; then
