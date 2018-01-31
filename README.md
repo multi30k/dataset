@@ -29,14 +29,17 @@ train
  (en) 29000 sentences, 377534 words, 13.0 words/sent
  (de) 29000 sentences, 360706 words, 12.4 words/sent
  (fr) 29000 sentences, 409845 words, 14.1 words/sent
+ (cs) 29000 sentences, 297212 words, 10.2 words/sent
 val
  (en) 1014 sentences, 13308 words, 13.1 words/sent
  (de) 1014 sentences, 12828 words, 12.7 words/sent
  (fr) 1014 sentences, 14381 words, 14.2 words/sent
+ (cs) 1014 sentences, 10342 words, 10.2 words/sent
 test_2016_flickr
  (en) 1000 sentences, 12968 words, 13.0 words/sent
  (de) 1000 sentences, 12103 words, 12.1 words/sent
  (fr) 1000 sentences, 13988 words, 14.0 words/sent
+ (cs) 1000 sentences, 10497 words, 10.5 words/sent
 test_2017_flickr
  (en) 1000 sentences, 11376 words, 11.4 words/sent
  (de) 1000 sentences, 10758 words, 10.8 words/sent
