@@ -26,6 +26,10 @@ fi
 
 
 ROOT=./data/task1
+PAIRS=./data/task1/pairs
+LANGS=`tr '-' '\n' < $PAIRS | sort -u`
+TRGLANGS=`cut -d'-' -f2 < $PAIRS | sort -u`
+
 TOK=${ROOT}/tok
 BPE=${ROOT}/bpe${BPE_MOPS}
 
@@ -41,7 +45,7 @@ mkdir -p $BPE &> /dev/null
 #####
 # BPE
 #####
-for TLANG in de fr cs; do
+for TLANG in $TRGLANGS; do
   LPAIR="en-${TLANG}"
   mkdir -p "${BPE}/${LPAIR}" &> /dev/null
   BPEFILE="${BPE}/${LPAIR}/codes"
@@ -58,7 +62,7 @@ done
 wait
 
 # Apply for all pairs separately
-for LPAIR in "en-de" "en-fr" "en-cs"; do
+for LPAIR in `cat $PAIRS`; do
   BPEFILE="${BPE}/${LPAIR}/codes"
 
   for TYPE in "train" "val" "test_2016_flickr" "test_2017_flickr" "test_2017_mscoco"; do
