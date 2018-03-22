@@ -49,3 +49,37 @@ test_2017_mscoco
  (de) 461 sentences, 5158 words, 11.2 words/sent
  (fr) 461 sentences, 5710 words, 12.4 words/sent
 ```
+If you use these resources in your research, please consider citing the following papers:
+
+English and German data:
+```
+@InProceedings{W16-3210,
+  author = 	"Elliott, Desmond
+		and Frank, Stella
+		and Sima'an, Khalil
+		and Specia, Lucia",
+  title = 	"Multi30K: Multilingual English-German Image Descriptions",
+  booktitle = 	"Proceedings of the 5th Workshop on Vision and Language",
+  year = 	"2016",
+  publisher = 	"Association for Computational Linguistics",
+  pages = 	"70--74",
+  location = 	"Berlin, Germany",
+  doi = 	"10.18653/v1/W16-3210",
+  url = 	"http://www.aclweb.org/anthology/W16-3210"
+}
+```
+
+French data, Ambiguous COCO evaluation data, and Test 2017 data:
+```
+@InProceedings{elliott-EtAl:2017:WMT,
+  author    = {Elliott, Desmond  and  Frank, Stella  and  Barrault, Lo\"{i}c  and  Bougares, Fethi  and  Specia, Lucia},
+  title     = {Findings of the Second Shared Task on Multimodal Machine Translation and Multilingual Image Description},
+  booktitle = {Proceedings of the Second Conference on Machine Translation, Volume 2: Shared Task Papers},
+  month     = {September},
+  year      = {2017},
+  address   = {Copenhagen, Denmark},
+  publisher = {Association for Computational Linguistics},
+  pages     = {215--233},
+  url       = {http://www.aclweb.org/anthology/W17-4718}
+}
+```
