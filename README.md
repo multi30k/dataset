@@ -16,6 +16,10 @@ In order to fetch everything correctly, you need to clone the repository with `-
 $ git clone --recursive https://github.com/multi30k/dataset.git multi30k-dataset
 ```
 
+### Visual features
+
+Pre-extracted visual features can be [downloaded from Googe Drive](https://drive.google.com/drive/folders/1I2ufg3rTva3qeBkEc-xDpkESsGkYXgCf?usp=sharing) and the raw images can be [requested here](http://shannon.cs.illinois.edu/DenotationGraph/).
+
 ### Task 1
 
 - Raw files under [data/task1/raw](data/task1/raw)
