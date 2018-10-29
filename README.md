@@ -87,3 +87,5 @@ French data, Ambiguous COCO evaluation data, and Test 2017 data:
   url       = {http://www.aclweb.org/anthology/W17-4718}
 }
 ```
+#### Special Thanks
+Thanks to Oliver Maunoury and Laure Behue for producing most of French Translations of 2018 Test set.
