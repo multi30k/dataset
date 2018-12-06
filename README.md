@@ -87,5 +87,17 @@ French data, Ambiguous COCO evaluation data, and Test 2017 data:
   url       = {http://www.aclweb.org/anthology/W17-4718}
 }
 ```
+
+Czech data:
+```
+@inproceedings{barrault2018findings,
+  title={Findings of the Third Shared Task on Multimodal Machine Translation},
+  author={Barrault, Lo{\"\i}c and Bougares, Fethi and Specia, Lucia and Lala, Chiraag and Elliott, Desmond and Frank, Stella},
+  booktitle={Proceedings of the Third Conference on Machine Translation: Shared Task Papers},
+  pages={304--323},
+  year={2018}
+}
+```
+
 #### Special Thanks
 Thanks to Oliver Maunoury and Laure Behue for producing most of French Translations of 2018 Test set.
