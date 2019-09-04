@@ -26,6 +26,10 @@ Pre-extracted visual features can be [downloaded from Google Drive](https://driv
 - Tokenized files under [data/task1/tok](data/task1/tok). These files were
   produced with the preprocessing script [scripts/task1-tokenize.sh](scripts/task1-tokenize.sh).
 
+#### Multi30K 2018 test set
+
+You can evaluate your model on the 2018 test sets using the ongoing [Codalab](https://competitions.codalab.org/competitions/19917) competition.
+
 #### Statistics
 
 ```
