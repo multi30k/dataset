@@ -18,7 +18,7 @@ $ git clone --recursive https://github.com/multi30k/dataset.git multi30k-dataset
 
 ### Visual features
 
-Pre-extracted visual features can be [downloaded from Google Drive](https://drive.google.com/drive/folders/1I2ufg3rTva3qeBkEc-xDpkESsGkYXgCf?usp=sharing) and the raw images can be [requested here](https://forms.illinois.edu/sec/229675).
+Pre-extracted visual features can be [downloaded from Google Drive](https://drive.google.com/drive/folders/1I2ufg3rTva3qeBkEc-xDpkESsGkYXgCf?usp=sharing) and the raw images can be [requested here](https://forms.illinois.edu/sec/229675) for Flickr30k. `test_2017_flickr` and `test_2018_flickr` images can be downloaded from [here](https://drive.google.com/drive/folders/1kfgmYFL5kup51ET7WQNxYmKCvwz_Hjkt).
 
 ### Task 1
 
