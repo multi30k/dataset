@@ -105,3 +105,6 @@ Czech data:
 
 #### Special Thanks
 Thanks to Oliver Maunoury and Laure Behue for producing most of French Translations of 2018 Test set.
+
+### Use of the Data
+Note that the Multi30k Dataset includes images obtained from Flickr. Use of the images must abide by the Flickr Terms of Use. We do not own the copyright of the images. 
