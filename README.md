@@ -103,6 +103,10 @@ Czech data:
 }
 ```
 
+#### Use of the data
+
+The Multi30K dataset is partially derived from the Flickr30K dataset. The Flickr30K dataset includes images obtained from Flickr. Use of the images must abide by the Flickr Terms of Use. We do not own the copyright of the images. They are solely provided for researchers and educators who wish to use the dataset for non-commercial research and/or educational purposes.
+
 #### Special Thanks
 Thanks to Oliver Maunoury and Laure Behue for producing most of French Translations of 2018 Test set.
 
